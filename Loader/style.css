@@ -1,0 +1,15 @@
+.loader{
+    margin-left: 40% !important;
+    height: 100px;
+    width: 20%;
+    left: 40%;
+    text-align: center;
+    padding: 1em;
+    margin: 0 auto 1em;
+    display: inline-block;
+    vertical-align: height;
+  }
+svg path, svg rect{
+    fill: rgba(0, 0, 0, 0.678);
+}
+
