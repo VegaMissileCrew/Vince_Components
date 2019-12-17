@@ -10,7 +10,7 @@ section, body{
     font-size: 1.5em;
     position: fixed; /* Make it stick/fixed */
     top: 0; /* Stay on top */
-    transition: top 0.3s;
+    transition: top 0.5s;
 }
 
 /* Blur on navbar toggle: mobile navigation */

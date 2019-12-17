@@ -11,7 +11,7 @@ function scrollFunction() {
 	if (prevScrollpos > currentScrollPos) {
 		document.querySelector("#nav").style.top = "0";	
 	} else {
-		document.querySelector("#nav").style.top = "-80px";
+		document.querySelector("#nav").style.top = "-300px";
 	}
 
 	prevScrollpos = currentScrollPos;
