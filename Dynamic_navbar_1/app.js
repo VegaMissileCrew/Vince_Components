@@ -1,5 +1,3 @@
-
-// Change navbar properties on scroll position
 window.addEventListener('scroll', () => scrollFunction());
 
 var prevScrollpos = window.pageYOffset;
