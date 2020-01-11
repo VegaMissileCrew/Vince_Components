@@ -1,110 +1,55 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Document</title>
     <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="https://cdn.rawgit.com/konpa/devicon/df6431e323547add1b4cf45992913f15286456d3/devicon.min.css">
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link rel="stylesheet"
+        href="https://cdn.rawgit.com/konpa/devicon/df6431e323547add1b4cf45992913f15286456d3/devicon.min.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+        integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
 </head>
+
 <body>
 
-    <div class="wrap">
-        
-        <div class="forum-cards pt-3 pb-5">
-
-            <div class="card shadow-lg">
-                <a href="{{ path('forum_topics_category', {slug: 'HTML 5'}) }}" class="card-link">
-                    <div class="card-icon">
-                        <i class="forum-icon devicon-html5-plain-wordmark colored "></i>
-                    </div>
-                </a> 
-                <div class="card-text">
-                    <span>HTML 5</span>	
-                </div>
+    <div class="container">
+        <div class="button">
+            <div class="push-container">
+                <i class="material-icons-round">play_arrow</i>
             </div>
-            <div class="card shadow-lg">
-                <a href="{{ path('forum_topics_category', {slug: 'CSS 3'}) }}" class="card-link">
-                    <div class="card-icon">
-                        <i class="forum-icon devicon-css3-plain-wordmark colored"></i>
-                    </div>
-                </a> 
-                <div class="card-text">
-                    <span>CSS 3</span>	
-                </div>
-            </div>
-            <div class="card shadow-lg">
-                <a href="{{ path('forum_topics_category', {slug: 'Javascript'}) }}" class="card-link">
-                    <div class="card-icon">
-                        <i class="forum-icon devicon-javascript-plain colored"></i>
-                    </div>
-                </a> 
-                <div class="card-text">
-                    <span>Javascript</span>	
-                </div>
-            </div>
-            <div class="card shadow-lg">
-                <a href="{{ path('forum_topics_category', {slug: 'PHP'}) }}" class="card-link">
-                    <div class="card-icon">
-                        <i class="forum-icon devicon-php-plain colored"></i>
-                    </div>
-                </a> 
-                <div class="card-text">
-                    <span>PHP</span>	
-                </div>
-            </div>
-            <div class="card shadow-lg">
-                <a href="{{ path('forum_topics_category', {slug: 'MySQL'}) }}" class="card-link">
-                    <div class="card-icon">
-                        <i class="forum-icon devicon-mysql-plain-wordmark colored"></i>
-                    </div>
-                </a> 
-                <div class="card-text">
-                    <span>MySQL</span>	
-                </div>
-            </div>
-
         </div>
-
-        <div class="forum-cards pt-3 pb-5">
-
-            <div class="card shadow-lg">
-                <a href="{{ path('forum_topics_category', {slug: 'Angular'}) }}" class="card-link">
-                    <div class="card-icon">
-                        <i class="forum-icon devicon-angularjs-plain colored"></i>
-                    </div>
-                </a> 
-                <div class="card-text">
-                    <span>Angular</span>	
-                </div>
+        <div class="button">
+            <div class="push-container">
+                <i class="material-icons-round">pause</i>
             </div>
-            <div class="card shadow-lg">
-                <a href="{{ path('forum_topics_category', {slug: 'Symfony'}) }}" class="card-link">
-                    <div class="card-icon">
-                        <i class="forum-icon devicon-symfony-original-wordmark colored"></i>
-                    </div>
-                </a> 
-                <div class="card-text">
-                    <span>Symfony</span>	
-                </div>
-            </div>
-            <div class="card shadow-lg">
-                <a href="{{ path('forum_topics_category', {slug: 'Wordpress'}) }}" class="card-link">
-                    <div class="card-icon">
-                        <i class="forum-icon devicon-wordpress-plain-wordmark colored"></i>
-                    </div>
-                </a> 
-                <div class="card-text">
-                    <span>Wordpress</span>	
-                </div>
-            </div>
-            
         </div>
-    
+        <div class="button">
+            <div class="push-container">
+                <i class="material-icons-round">skip_next</i>
+            </div>
+        </div>
+    </div>
+    <div class="container">
+        <div class="button">
+            <div class="push-container">
+                <i class="material-icons-round">play_arrow</i>
+            </div>
+        </div>
+        <div class="button">
+            <div class="push-container">
+                <i class="material-icons-round">pause</i>
+            </div>
+        </div>
+        <div class="button">
+            <div class="push-container">
+                <i class="material-icons-round">skip_next</i>
+            </div>
+        </div>
     </div>
 
 </body>
-</html>
 
+</html>
